@@ -1,0 +1,13 @@
+
+
+
+
+RSpec
+DSL (Domain Specific language)
+Piramede de testes
+TDD
+BDD
+Metodo de classe e de instancia
+Ruby e Rails
+Arrange Act Assert
+Testar login selenium
