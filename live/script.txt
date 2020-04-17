@@ -1,13 +1,23 @@
 
 
+Por que testar virou um diferencial?
 
+TESTE É MAIS IMPORTANTE QUE LINTING
+que encontra apenas problemas de sub classe
+e nao de logica
 
 RSpec
 DSL (Domain Specific language)
 Piramede de testes
 TDD
-BDD
+Single responsability
+Dont repeat yourself
 Metodo de classe e de instancia
+BDD
 Ruby e Rails
 Arrange Act Assert
 Testar login selenium
+
+
+https://strawpoll.com/sp91pg5h
+http://dontpad.com/sugestoeslivejeraplay
