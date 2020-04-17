@@ -27,6 +27,8 @@ hello.hello_instance_method
 
 begin
 	# Aqui vai dar erro erro e entrar no rescue
+	# Pois estamos chamando o metodo de instnacia
+	# como se fosse de classe
 	SayHello.hello_instance_method
 rescue => error_message
 	# Mostra o erro em vermelho (\033[31m) e da um pulo na linha do console com o \n
@@ -35,6 +37,8 @@ end
 
 begin
 	# Aqui vai dar erro erro e entrar no rescue
+	# Pois estamos chamando o metodo de calsse
+	# como se fosse de instancia
 	hello.hello_class_method
 rescue => error_message
 	# Mostra o erro em vermelho (\033[31m) e da um pulo na linha do console com o \n
