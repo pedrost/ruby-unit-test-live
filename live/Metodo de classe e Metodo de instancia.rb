@@ -28,15 +28,15 @@ hello.hello_instance_method
 begin
 	# Aqui vai dar erro erro e entrar no rescue
 	SayHello.hello_instance_method
-rescue => e
+rescue => error_message
 	# Mostra o erro em vermelho (\033[31m) e da um pulo na linha do console com o \n
-	puts "\033[31m #{e} \n"
+	puts "\033[31m #{error_message} \n"
 end
 
 begin
 	# Aqui vai dar erro erro e entrar no rescue
 	hello.hello_class_method
-rescue => e
+rescue => error_message
 	# Mostra o erro em vermelho (\033[31m) e da um pulo na linha do console com o \n
-	puts "\033[31m #{e} \033[0m \n "
+	puts "\033[31m #{error_message} \033[0m \n "
 end
