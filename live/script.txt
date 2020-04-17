@@ -10,7 +10,7 @@ RSpec
 DSL (Domain Specific language)
 Piramede de testes
 TDD
-Single responsability
+Single responsability (manter genérico) (diminui complexidade de codigo)
 Dont repeat yourself
 Metodo de classe e de instancia
 BDD
