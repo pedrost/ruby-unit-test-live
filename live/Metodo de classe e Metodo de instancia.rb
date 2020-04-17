@@ -1,3 +1,4 @@
+# Pra rodar escreva 'ruby ./nome do arquivo' em seu terminal
 
 class SayHello
 
