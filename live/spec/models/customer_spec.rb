@@ -2,7 +2,7 @@ require 'customer'
 
 RSpec.describe Customer do
 
-  describe '#security_code?' do
+  describe '#valid_security_code?' do
 
     context 'when code is valid' do
       # Arrange
@@ -12,7 +12,7 @@ RSpec.describe Customer do
       # Act
       it 'should return true' do
         # Assert
-        expect(customer.security_code.end_with?('secret')).to eq(true)
+        expect(customer.valid_security_code?).to eq(true)
       end
     end
 
@@ -23,13 +23,13 @@ RSpec.describe Customer do
       # Act
       it 'should return false' do
         # Assert
-        expect(expect(customer.security_code.end_with?('secret')).to eq(false))
+        expect(expect(customer.valid_security_code?).to eq(false))
       end
     end
   end
 
   describe '#score' do
-    context 'when customer bought an item', focus: true do
+    context 'when customer bought an item' do
       # Arrange
       subject(:customer) { described_class.new({}) }
 

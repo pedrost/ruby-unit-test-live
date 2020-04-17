@@ -6,6 +6,10 @@ class Customer
         @score = 0
     end
 
+    def valid_security_code?
+    	self.security_code.end_with?('secret')
+    end
+
     def buy_items(quantity)
     	@score += quantity
     end
